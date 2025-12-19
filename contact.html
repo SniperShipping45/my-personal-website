@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About Me</a>
+            <a href="gallery.html" class="nav-link">Gallery</a>
+            <a href="contact.html" class="nav-link active">Contact Me</a>
+        </nav>
+    </header>
+
+    <main class="center-content">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/albion_dias45?igsh=a2Z3OG5ram4xOWtj" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/SniperShipping45" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/albion-dias-5079853a0/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div class="toggle-container">
+            <span>Light</span>
+            <label class="switch"><input type="checkbox" id="theme-toggle"><span class="slider"></span></label>
+            <span>Dark</span>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
